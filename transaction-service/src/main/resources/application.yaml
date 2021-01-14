@@ -1,0 +1,23 @@
+spring:
+  application:
+    name: transaction-service
+  jpa.hibernate.ddl-auto: create
+  cloud:
+    consul:
+      enabled: true
+      host: consul
+      port: 8500
+  data:
+    mongodb:
+      host: mongodb
+      port: 27017
+      database: transaction-service
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
+server:
+  port: 7000

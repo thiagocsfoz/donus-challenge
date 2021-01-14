@@ -1,0 +1,25 @@
+spring:
+  application:
+    name: account-service
+  datasource:
+    url: jdbc:postgresql://dbpostgresql:5432/account-service
+    username: postgres
+    password: postgres
+  jpa:
+    hibernate:
+      ddl-auto: update
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+  cloud:
+    consul:
+      enabled: true
+      host: consul
+      port: 8500
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
+server:
+  port: 7000

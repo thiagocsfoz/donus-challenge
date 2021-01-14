@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: account-service
+  cloud:
+    consul:
+      enabled: true
+      host: consul
+      port: 8500

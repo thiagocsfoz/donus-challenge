@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: transaction-service
+  cloud:
+    consul:
+      enabled: true
+      host: consul
+      port: 8500
