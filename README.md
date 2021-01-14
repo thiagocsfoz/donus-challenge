@@ -6,6 +6,7 @@
 - [Arquitetura](#arquitetura)
 - [Ambiente de Desenvolvimento e Tecnologias](#ambiente-de-desenvolvimento-e-tecnologias)
 - [Execução](#execução)
+- [Melhorias](#melhorias)
 
 
 ## Introdução
