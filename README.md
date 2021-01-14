@@ -47,7 +47,7 @@ Para executar a aplicação dever ter em seu ambiente o Java 8, Docker e docker 
 
 Na raiz do projeto execute o comando:
 ```sh
-docker-compose.exe -f docker-compose.yaml up -d --build
+docker-compose -f docker-compose.yaml up -d --build
 ```
 
 Endereços:
