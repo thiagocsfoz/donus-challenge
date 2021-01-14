@@ -2,10 +2,10 @@
 
 ## Conteúdo
 
-- [Introdução](#introduo)
+- [Introdução](#introdução)
 - [Arquitetura](#arquitetura)
 - [Ambiente de Desenvolvimento e Tecnologias](#ambiente-de-desenvolvimento-e-tecnologias)
-- [Execução](#execuo)
+- [Execução](#execução)
 
 
 ## Introdução
